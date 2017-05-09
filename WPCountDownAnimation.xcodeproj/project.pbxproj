@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5523EB1EC1615B00117DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5523EA1EC1615B00117DAF /* main.m */; };
+		AA5523EE1EC1615B00117DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5523ED1EC1615B00117DAF /* AppDelegate.m */; };
+		AA5523F11EC1615B00117DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5523F01EC1615B00117DAF /* ViewController.m */; };
+		AA5523F41EC1615B00117DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5523F21EC1615B00117DAF /* Main.storyboard */; };
+		AA5523F61EC1615B00117DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5523F51EC1615B00117DAF /* Assets.xcassets */; };
+		AA5523F91EC1615B00117DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5523F71EC1615B00117DAF /* LaunchScreen.storyboard */; };
+		AA5524041EC1615B00117DAF /* WPCountDownAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5524031EC1615B00117DAF /* WPCountDownAnimationTests.m */; };
+		AA55240F1EC1615B00117DAF /* WPCountDownAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55240E1EC1615B00117DAF /* WPCountDownAnimationUITests.m */; };
+		AA55241E1EC1617F00117DAF /* WPCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55241C1EC1617F00117DAF /* WPCountDownView.m */; };
+		AA5524221EC161A400117DAF /* UIView+WPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5524211EC161A400117DAF /* UIView+WPCategory.m */; };
+		AA5524251EC1620300117DAF /* UIColor-Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5524241EC1620300117DAF /* UIColor-Extension.m */; };
+		AA5524341EC1638300117DAF /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5524281EC1638300117DAF /* bg.png */; };
+		AA5524351EC1638300117DAF /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5524291EC1638300117DAF /* bg@2x.png */; };
+		AA5524361EC1638300117DAF /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55242A1EC1638300117DAF /* bg@3x.png */; };
+		AA5524371EC1638300117DAF /* countDown1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55242B1EC1638300117DAF /* countDown1.png */; };
+		AA5524381EC1638300117DAF /* countDown1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55242C1EC1638300117DAF /* countDown1@2x.png */; };
+		AA5524391EC1638300117DAF /* countDown1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55242D1EC1638300117DAF /* countDown1@3x.png */; };
+		AA55243A1EC1638300117DAF /* countDown2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55242E1EC1638300117DAF /* countDown2.png */; };
+		AA55243B1EC1638300117DAF /* countDown2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55242F1EC1638300117DAF /* countDown2@2x.png */; };
+		AA55243C1EC1638300117DAF /* countDown2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5524301EC1638300117DAF /* countDown2@3x.png */; };
+		AA55243D1EC1638300117DAF /* countDown3.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5524311EC1638300117DAF /* countDown3.png */; };
+		AA55243E1EC1638300117DAF /* countDown3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5524321EC1638300117DAF /* countDown3@2x.png */; };
+		AA55243F1EC1638300117DAF /* countDown3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5524331EC1638300117DAF /* countDown3@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5524001EC1615B00117DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5523DE1EC1615B00117DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5523E51EC1615B00117DAF;
+			remoteInfo = WPCountDownAnimation;
+		};
+		AA55240B1EC1615B00117DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5523DE1EC1615B00117DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5523E51EC1615B00117DAF;
+			remoteInfo = WPCountDownAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA5523E61EC1615B00117DAF /* WPCountDownAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPCountDownAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5523EA1EC1615B00117DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5523EC1EC1615B00117DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5523ED1EC1615B00117DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5523EF1EC1615B00117DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA5523F01EC1615B00117DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA5523F31EC1615B00117DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5523F51EC1615B00117DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA5523F81EC1615B00117DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA5523FA1EC1615B00117DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5523FF1EC1615B00117DAF /* WPCountDownAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPCountDownAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5524031EC1615B00117DAF /* WPCountDownAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPCountDownAnimationTests.m; sourceTree = "<group>"; };
+		AA5524051EC1615B00117DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA55240A1EC1615B00117DAF /* WPCountDownAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPCountDownAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA55240E1EC1615B00117DAF /* WPCountDownAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPCountDownAnimationUITests.m; sourceTree = "<group>"; };
+		AA5524101EC1615B00117DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA55241C1EC1617F00117DAF /* WPCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPCountDownView.m; path = ../WPCountDownView.m; sourceTree = "<group>"; };
+		AA55241D1EC1617F00117DAF /* WPCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPCountDownView.h; path = ../WPCountDownView.h; sourceTree = "<group>"; };
+		AA5524201EC161A400117DAF /* UIView+WPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WPCategory.h"; sourceTree = "<group>"; };
+		AA5524211EC161A400117DAF /* UIView+WPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WPCategory.m"; sourceTree = "<group>"; };
+		AA5524231EC1620300117DAF /* UIColor-Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor-Extension.h"; path = "WPCountDownAnimation/UIColor-Extension.h"; sourceTree = SOURCE_ROOT; };
+		AA5524241EC1620300117DAF /* UIColor-Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor-Extension.m"; path = "WPCountDownAnimation/UIColor-Extension.m"; sourceTree = SOURCE_ROOT; };
+		AA5524281EC1638300117DAF /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		AA5524291EC1638300117DAF /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		AA55242A1EC1638300117DAF /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
+		AA55242B1EC1638300117DAF /* countDown1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countDown1.png; sourceTree = "<group>"; };
+		AA55242C1EC1638300117DAF /* countDown1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countDown1@2x.png"; sourceTree = "<group>"; };
+		AA55242D1EC1638300117DAF /* countDown1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countDown1@3x.png"; sourceTree = "<group>"; };
+		AA55242E1EC1638300117DAF /* countDown2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countDown2.png; sourceTree = "<group>"; };
+		AA55242F1EC1638300117DAF /* countDown2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countDown2@2x.png"; sourceTree = "<group>"; };
+		AA5524301EC1638300117DAF /* countDown2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countDown2@3x.png"; sourceTree = "<group>"; };
+		AA5524311EC1638300117DAF /* countDown3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countDown3.png; sourceTree = "<group>"; };
+		AA5524321EC1638300117DAF /* countDown3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countDown3@2x.png"; sourceTree = "<group>"; };
+		AA5524331EC1638300117DAF /* countDown3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "countDown3@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5523E31EC1615B00117DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5523FC1EC1615B00117DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5524071EC1615B00117DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5523DD1EC1615B00117DAF = {
+			isa = PBXGroup;
+			children = (
+				AA5523E81EC1615B00117DAF /* WPCountDownAnimation */,
+				AA5524021EC1615B00117DAF /* WPCountDownAnimationTests */,
+				AA55240D1EC1615B00117DAF /* WPCountDownAnimationUITests */,
+				AA5523E71EC1615B00117DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5523E71EC1615B00117DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5523E61EC1615B00117DAF /* WPCountDownAnimation.app */,
+				AA5523FF1EC1615B00117DAF /* WPCountDownAnimationTests.xctest */,
+				AA55240A1EC1615B00117DAF /* WPCountDownAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5523E81EC1615B00117DAF /* WPCountDownAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AA5524401EC1649600117DAF /* CountDownView */,
+				AA5524271EC1635800117DAF /* Resource */,
+				AA5524261EC1621B00117DAF /* UIColor */,
+				AA55241F1EC161A400117DAF /* UIView+Category */,
+				AA5523EC1EC1615B00117DAF /* AppDelegate.h */,
+				AA5523ED1EC1615B00117DAF /* AppDelegate.m */,
+				AA5523EF1EC1615B00117DAF /* ViewController.h */,
+				AA5523F01EC1615B00117DAF /* ViewController.m */,
+				AA5523F21EC1615B00117DAF /* Main.storyboard */,
+				AA5523F51EC1615B00117DAF /* Assets.xcassets */,
+				AA5523F71EC1615B00117DAF /* LaunchScreen.storyboard */,
+				AA5523FA1EC1615B00117DAF /* Info.plist */,
+				AA5523E91EC1615B00117DAF /* Supporting Files */,
+			);
+			path = WPCountDownAnimation;
+			sourceTree = "<group>";
+		};
+		AA5523E91EC1615B00117DAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5523EA1EC1615B00117DAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5524021EC1615B00117DAF /* WPCountDownAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5524031EC1615B00117DAF /* WPCountDownAnimationTests.m */,
+				AA5524051EC1615B00117DAF /* Info.plist */,
+			);
+			path = WPCountDownAnimationTests;
+			sourceTree = "<group>";
+		};
+		AA55240D1EC1615B00117DAF /* WPCountDownAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA55240E1EC1615B00117DAF /* WPCountDownAnimationUITests.m */,
+				AA5524101EC1615B00117DAF /* Info.plist */,
+			);
+			path = WPCountDownAnimationUITests;
+			sourceTree = "<group>";
+		};
+		AA55241F1EC161A400117DAF /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA5524201EC161A400117DAF /* UIView+WPCategory.h */,
+				AA5524211EC161A400117DAF /* UIView+WPCategory.m */,
+			);
+			path = "UIView+Category";
+			sourceTree = "<group>";
+		};
+		AA5524261EC1621B00117DAF /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				AA5524231EC1620300117DAF /* UIColor-Extension.h */,
+				AA5524241EC1620300117DAF /* UIColor-Extension.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		AA5524271EC1635800117DAF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA5524281EC1638300117DAF /* bg.png */,
+				AA5524291EC1638300117DAF /* bg@2x.png */,
+				AA55242A1EC1638300117DAF /* bg@3x.png */,
+				AA55242B1EC1638300117DAF /* countDown1.png */,
+				AA55242C1EC1638300117DAF /* countDown1@2x.png */,
+				AA55242D1EC1638300117DAF /* countDown1@3x.png */,
+				AA55242E1EC1638300117DAF /* countDown2.png */,
+				AA55242F1EC1638300117DAF /* countDown2@2x.png */,
+				AA5524301EC1638300117DAF /* countDown2@3x.png */,
+				AA5524311EC1638300117DAF /* countDown3.png */,
+				AA5524321EC1638300117DAF /* countDown3@2x.png */,
+				AA5524331EC1638300117DAF /* countDown3@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA5524401EC1649600117DAF /* CountDownView */ = {
+			isa = PBXGroup;
+			children = (
+				AA55241D1EC1617F00117DAF /* WPCountDownView.h */,
+				AA55241C1EC1617F00117DAF /* WPCountDownView.m */,
+			);
+			path = CountDownView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5523E51EC1615B00117DAF /* WPCountDownAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5524131EC1615B00117DAF /* Build configuration list for PBXNativeTarget "WPCountDownAnimation" */;
+			buildPhases = (
+				AA5523E21EC1615B00117DAF /* Sources */,
+				AA5523E31EC1615B00117DAF /* Frameworks */,
+				AA5523E41EC1615B00117DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPCountDownAnimation;
+			productName = WPCountDownAnimation;
+			productReference = AA5523E61EC1615B00117DAF /* WPCountDownAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5523FE1EC1615B00117DAF /* WPCountDownAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5524161EC1615B00117DAF /* Build configuration list for PBXNativeTarget "WPCountDownAnimationTests" */;
+			buildPhases = (
+				AA5523FB1EC1615B00117DAF /* Sources */,
+				AA5523FC1EC1615B00117DAF /* Frameworks */,
+				AA5523FD1EC1615B00117DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5524011EC1615B00117DAF /* PBXTargetDependency */,
+			);
+			name = WPCountDownAnimationTests;
+			productName = WPCountDownAnimationTests;
+			productReference = AA5523FF1EC1615B00117DAF /* WPCountDownAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA5524091EC1615B00117DAF /* WPCountDownAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5524191EC1615B00117DAF /* Build configuration list for PBXNativeTarget "WPCountDownAnimationUITests" */;
+			buildPhases = (
+				AA5524061EC1615B00117DAF /* Sources */,
+				AA5524071EC1615B00117DAF /* Frameworks */,
+				AA5524081EC1615B00117DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA55240C1EC1615B00117DAF /* PBXTargetDependency */,
+			);
+			name = WPCountDownAnimationUITests;
+			productName = WPCountDownAnimationUITests;
+			productReference = AA55240A1EC1615B00117DAF /* WPCountDownAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5523DE1EC1615B00117DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王鹏";
+				TargetAttributes = {
+					AA5523E51EC1615B00117DAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+					};
+					AA5523FE1EC1615B00117DAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA5523E51EC1615B00117DAF;
+					};
+					AA5524091EC1615B00117DAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA5523E51EC1615B00117DAF;
+					};
+				};
+			};
+			buildConfigurationList = AA5523E11EC1615B00117DAF /* Build configuration list for PBXProject "WPCountDownAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5523DD1EC1615B00117DAF;
+			productRefGroup = AA5523E71EC1615B00117DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5523E51EC1615B00117DAF /* WPCountDownAnimation */,
+				AA5523FE1EC1615B00117DAF /* WPCountDownAnimationTests */,
+				AA5524091EC1615B00117DAF /* WPCountDownAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5523E41EC1615B00117DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5524381EC1638300117DAF /* countDown1@2x.png in Resources */,
+				AA5524361EC1638300117DAF /* bg@3x.png in Resources */,
+				AA5524371EC1638300117DAF /* countDown1.png in Resources */,
+				AA5523F91EC1615B00117DAF /* LaunchScreen.storyboard in Resources */,
+				AA55243A1EC1638300117DAF /* countDown2.png in Resources */,
+				AA5523F61EC1615B00117DAF /* Assets.xcassets in Resources */,
+				AA55243E1EC1638300117DAF /* countDown3@2x.png in Resources */,
+				AA55243C1EC1638300117DAF /* countDown2@3x.png in Resources */,
+				AA5524391EC1638300117DAF /* countDown1@3x.png in Resources */,
+				AA55243D1EC1638300117DAF /* countDown3.png in Resources */,
+				AA55243B1EC1638300117DAF /* countDown2@2x.png in Resources */,
+				AA5524341EC1638300117DAF /* bg.png in Resources */,
+				AA55243F1EC1638300117DAF /* countDown3@3x.png in Resources */,
+				AA5523F41EC1615B00117DAF /* Main.storyboard in Resources */,
+				AA5524351EC1638300117DAF /* bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5523FD1EC1615B00117DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5524081EC1615B00117DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5523E21EC1615B00117DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5523F11EC1615B00117DAF /* ViewController.m in Sources */,
+				AA5524221EC161A400117DAF /* UIView+WPCategory.m in Sources */,
+				AA5523EE1EC1615B00117DAF /* AppDelegate.m in Sources */,
+				AA55241E1EC1617F00117DAF /* WPCountDownView.m in Sources */,
+				AA5523EB1EC1615B00117DAF /* main.m in Sources */,
+				AA5524251EC1620300117DAF /* UIColor-Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5523FB1EC1615B00117DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5524041EC1615B00117DAF /* WPCountDownAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5524061EC1615B00117DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA55240F1EC1615B00117DAF /* WPCountDownAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5524011EC1615B00117DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5523E51EC1615B00117DAF /* WPCountDownAnimation */;
+			targetProxy = AA5524001EC1615B00117DAF /* PBXContainerItemProxy */;
+		};
+		AA55240C1EC1615B00117DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5523E51EC1615B00117DAF /* WPCountDownAnimation */;
+			targetProxy = AA55240B1EC1615B00117DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5523F21EC1615B00117DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5523F31EC1615B00117DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA5523F71EC1615B00117DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5523F81EC1615B00117DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5524111EC1615B00117DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5524121EC1615B00117DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5524141EC1615B00117DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCountDownAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCountDownAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5524151EC1615B00117DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCountDownAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCountDownAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA5524171EC1615B00117DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCountDownAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCountDownAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPCountDownAnimation.app/WPCountDownAnimation";
+			};
+			name = Debug;
+		};
+		AA5524181EC1615B00117DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCountDownAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCountDownAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPCountDownAnimation.app/WPCountDownAnimation";
+			};
+			name = Release;
+		};
+		AA55241A1EC1615B00117DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCountDownAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCountDownAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPCountDownAnimation;
+			};
+			name = Debug;
+		};
+		AA55241B1EC1615B00117DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCountDownAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCountDownAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPCountDownAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5523E11EC1615B00117DAF /* Build configuration list for PBXProject "WPCountDownAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5524111EC1615B00117DAF /* Debug */,
+				AA5524121EC1615B00117DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5524131EC1615B00117DAF /* Build configuration list for PBXNativeTarget "WPCountDownAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5524141EC1615B00117DAF /* Debug */,
+				AA5524151EC1615B00117DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5524161EC1615B00117DAF /* Build configuration list for PBXNativeTarget "WPCountDownAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5524171EC1615B00117DAF /* Debug */,
+				AA5524181EC1615B00117DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5524191EC1615B00117DAF /* Build configuration list for PBXNativeTarget "WPCountDownAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA55241A1EC1615B00117DAF /* Debug */,
+				AA55241B1EC1615B00117DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5523DE1EC1615B00117DAF /* Project object */;
+}
